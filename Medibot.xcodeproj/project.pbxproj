@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AF76B436A16F85F39A1948 /* Pods_MedibotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A595D4E908962928D860BC8 /* Pods_MedibotTests.framework */; };
+		81DA9EB126EDB78D0055F4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA9EB026EDB78D0055F4BC /* AppDelegate.swift */; };
+		81DA9EB326EDB78D0055F4BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA9EB226EDB78D0055F4BC /* SceneDelegate.swift */; };
+		81DA9EB526EDB78D0055F4BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA9EB426EDB78D0055F4BC /* ViewController.swift */; };
+		81DA9EB826EDB78D0055F4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DA9EB626EDB78D0055F4BC /* Main.storyboard */; };
+		81DA9EBA26EDB78E0055F4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DA9EB926EDB78E0055F4BC /* Assets.xcassets */; };
+		81DA9EBD26EDB78E0055F4BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DA9EBB26EDB78E0055F4BC /* LaunchScreen.storyboard */; };
+		81DA9EC826EDB78E0055F4BC /* MedibotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA9EC726EDB78E0055F4BC /* MedibotTests.swift */; };
+		81DA9ED326EDB78E0055F4BC /* MedibotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA9ED226EDB78E0055F4BC /* MedibotUITests.swift */; };
+		81DA9EE126EDB90B0055F4BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA9EE026EDB90B0055F4BC /* HomeViewController.swift */; };
+		DB945EE5731AC32E23AA4610 /* Pods_Medibot_MedibotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EBF15D6A6D0CB4AB63030C /* Pods_Medibot_MedibotUITests.framework */; };
+		E8344EB70BFC145FC2E7CC49 /* Pods_Medibot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14CB26A24DBF090BD37C940 /* Pods_Medibot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81DA9EC426EDB78E0055F4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81DA9EA526EDB78D0055F4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81DA9EAC26EDB78D0055F4BC;
+			remoteInfo = Medibot;
+		};
+		81DA9ECF26EDB78E0055F4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81DA9EA526EDB78D0055F4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81DA9EAC26EDB78D0055F4BC;
+			remoteInfo = Medibot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D4D14E65A680900194F8A4 /* Pods-MedibotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibotTests.debug.xcconfig"; path = "Target Support Files/Pods-MedibotTests/Pods-MedibotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38195050CCCFF0F758BC033A /* Pods-Medibot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medibot.release.xcconfig"; path = "Target Support Files/Pods-Medibot/Pods-Medibot.release.xcconfig"; sourceTree = "<group>"; };
+		49E85A84164AD5CE73FC25BF /* Pods-Medibot-MedibotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medibot-MedibotUITests.release.xcconfig"; path = "Target Support Files/Pods-Medibot-MedibotUITests/Pods-Medibot-MedibotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		735B9F3C190E4B4C32B9BE62 /* Pods-MedibotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibotTests.release.xcconfig"; path = "Target Support Files/Pods-MedibotTests/Pods-MedibotTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A595D4E908962928D860BC8 /* Pods_MedibotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedibotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DA9EAD26EDB78D0055F4BC /* Medibot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medibot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DA9EB026EDB78D0055F4BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81DA9EB226EDB78D0055F4BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81DA9EB426EDB78D0055F4BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81DA9EB726EDB78D0055F4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81DA9EB926EDB78E0055F4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81DA9EBC26EDB78E0055F4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81DA9EBE26EDB78E0055F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DA9EC326EDB78E0055F4BC /* MedibotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedibotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DA9EC726EDB78E0055F4BC /* MedibotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedibotTests.swift; sourceTree = "<group>"; };
+		81DA9EC926EDB78E0055F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DA9ECE26EDB78E0055F4BC /* MedibotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedibotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DA9ED226EDB78E0055F4BC /* MedibotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedibotUITests.swift; sourceTree = "<group>"; };
+		81DA9ED426EDB78E0055F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DA9EE026EDB90B0055F4BC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4EBF15D6A6D0CB4AB63030C /* Pods_Medibot_MedibotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medibot_MedibotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BF5C9B256BA38E46488632 /* Pods-Medibot-MedibotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medibot-MedibotUITests.debug.xcconfig"; path = "Target Support Files/Pods-Medibot-MedibotUITests/Pods-Medibot-MedibotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C14CB26A24DBF090BD37C940 /* Pods_Medibot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medibot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9422DEE0F5C8B5296072062 /* Pods-Medibot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medibot.debug.xcconfig"; path = "Target Support Files/Pods-Medibot/Pods-Medibot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81DA9EAA26EDB78D0055F4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8344EB70BFC145FC2E7CC49 /* Pods_Medibot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA9EC026EDB78E0055F4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF76B436A16F85F39A1948 /* Pods_MedibotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA9ECB26EDB78E0055F4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB945EE5731AC32E23AA4610 /* Pods_Medibot_MedibotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D87CBEC3BE4EC4266718E22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9422DEE0F5C8B5296072062 /* Pods-Medibot.debug.xcconfig */,
+				38195050CCCFF0F758BC033A /* Pods-Medibot.release.xcconfig */,
+				B5BF5C9B256BA38E46488632 /* Pods-Medibot-MedibotUITests.debug.xcconfig */,
+				49E85A84164AD5CE73FC25BF /* Pods-Medibot-MedibotUITests.release.xcconfig */,
+				11D4D14E65A680900194F8A4 /* Pods-MedibotTests.debug.xcconfig */,
+				735B9F3C190E4B4C32B9BE62 /* Pods-MedibotTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81DA9EA426EDB78D0055F4BC = {
+			isa = PBXGroup;
+			children = (
+				81DA9EAF26EDB78D0055F4BC /* Medibot */,
+				81DA9EC626EDB78E0055F4BC /* MedibotTests */,
+				81DA9ED126EDB78E0055F4BC /* MedibotUITests */,
+				81DA9EAE26EDB78D0055F4BC /* Products */,
+				6D87CBEC3BE4EC4266718E22 /* Pods */,
+				BD4A3EE34B2D6193E50891B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81DA9EAE26EDB78D0055F4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81DA9EAD26EDB78D0055F4BC /* Medibot.app */,
+				81DA9EC326EDB78E0055F4BC /* MedibotTests.xctest */,
+				81DA9ECE26EDB78E0055F4BC /* MedibotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81DA9EAF26EDB78D0055F4BC /* Medibot */ = {
+			isa = PBXGroup;
+			children = (
+				81DA9EB026EDB78D0055F4BC /* AppDelegate.swift */,
+				81DA9EE026EDB90B0055F4BC /* HomeViewController.swift */,
+				81DA9EB226EDB78D0055F4BC /* SceneDelegate.swift */,
+				81DA9EB426EDB78D0055F4BC /* ViewController.swift */,
+				81DA9EB626EDB78D0055F4BC /* Main.storyboard */,
+				81DA9EB926EDB78E0055F4BC /* Assets.xcassets */,
+				81DA9EBB26EDB78E0055F4BC /* LaunchScreen.storyboard */,
+				81DA9EBE26EDB78E0055F4BC /* Info.plist */,
+			);
+			path = Medibot;
+			sourceTree = "<group>";
+		};
+		81DA9EC626EDB78E0055F4BC /* MedibotTests */ = {
+			isa = PBXGroup;
+			children = (
+				81DA9EC726EDB78E0055F4BC /* MedibotTests.swift */,
+				81DA9EC926EDB78E0055F4BC /* Info.plist */,
+			);
+			path = MedibotTests;
+			sourceTree = "<group>";
+		};
+		81DA9ED126EDB78E0055F4BC /* MedibotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81DA9ED226EDB78E0055F4BC /* MedibotUITests.swift */,
+				81DA9ED426EDB78E0055F4BC /* Info.plist */,
+			);
+			path = MedibotUITests;
+			sourceTree = "<group>";
+		};
+		BD4A3EE34B2D6193E50891B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14CB26A24DBF090BD37C940 /* Pods_Medibot.framework */,
+				A4EBF15D6A6D0CB4AB63030C /* Pods_Medibot_MedibotUITests.framework */,
+				7A595D4E908962928D860BC8 /* Pods_MedibotTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81DA9EAC26EDB78D0055F4BC /* Medibot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DA9ED726EDB78E0055F4BC /* Build configuration list for PBXNativeTarget "Medibot" */;
+			buildPhases = (
+				1295601C3C495914676E9DCF /* [CP] Check Pods Manifest.lock */,
+				81DA9EA926EDB78D0055F4BC /* Sources */,
+				81DA9EAA26EDB78D0055F4BC /* Frameworks */,
+				81DA9EAB26EDB78D0055F4BC /* Resources */,
+				1391A0E98AA59D748BE18D6C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medibot;
+			productName = Medibot;
+			productReference = 81DA9EAD26EDB78D0055F4BC /* Medibot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81DA9EC226EDB78E0055F4BC /* MedibotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DA9EDA26EDB78E0055F4BC /* Build configuration list for PBXNativeTarget "MedibotTests" */;
+			buildPhases = (
+				D072B436D1BE455F610938A3 /* [CP] Check Pods Manifest.lock */,
+				81DA9EBF26EDB78E0055F4BC /* Sources */,
+				81DA9EC026EDB78E0055F4BC /* Frameworks */,
+				81DA9EC126EDB78E0055F4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81DA9EC526EDB78E0055F4BC /* PBXTargetDependency */,
+			);
+			name = MedibotTests;
+			productName = MedibotTests;
+			productReference = 81DA9EC326EDB78E0055F4BC /* MedibotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81DA9ECD26EDB78E0055F4BC /* MedibotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DA9EDD26EDB78E0055F4BC /* Build configuration list for PBXNativeTarget "MedibotUITests" */;
+			buildPhases = (
+				A0C1EE6E8ACE2B4E9E66C7F8 /* [CP] Check Pods Manifest.lock */,
+				81DA9ECA26EDB78E0055F4BC /* Sources */,
+				81DA9ECB26EDB78E0055F4BC /* Frameworks */,
+				81DA9ECC26EDB78E0055F4BC /* Resources */,
+				0FCCA88E78DB1B384CCAFC75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81DA9ED026EDB78E0055F4BC /* PBXTargetDependency */,
+			);
+			name = MedibotUITests;
+			productName = MedibotUITests;
+			productReference = 81DA9ECE26EDB78E0055F4BC /* MedibotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81DA9EA526EDB78D0055F4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					81DA9EAC26EDB78D0055F4BC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					81DA9EC226EDB78E0055F4BC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 81DA9EAC26EDB78D0055F4BC;
+					};
+					81DA9ECD26EDB78E0055F4BC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 81DA9EAC26EDB78D0055F4BC;
+					};
+				};
+			};
+			buildConfigurationList = 81DA9EA826EDB78D0055F4BC /* Build configuration list for PBXProject "Medibot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81DA9EA426EDB78D0055F4BC;
+			productRefGroup = 81DA9EAE26EDB78D0055F4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81DA9EAC26EDB78D0055F4BC /* Medibot */,
+				81DA9EC226EDB78E0055F4BC /* MedibotTests */,
+				81DA9ECD26EDB78E0055F4BC /* MedibotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81DA9EAB26EDB78D0055F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DA9EBD26EDB78E0055F4BC /* LaunchScreen.storyboard in Resources */,
+				81DA9EBA26EDB78E0055F4BC /* Assets.xcassets in Resources */,
+				81DA9EB826EDB78D0055F4BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA9EC126EDB78E0055F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA9ECC26EDB78E0055F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FCCA88E78DB1B384CCAFC75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medibot-MedibotUITests/Pods-Medibot-MedibotUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medibot-MedibotUITests/Pods-Medibot-MedibotUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Medibot-MedibotUITests/Pods-Medibot-MedibotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1295601C3C495914676E9DCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medibot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1391A0E98AA59D748BE18D6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medibot/Pods-Medibot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medibot/Pods-Medibot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Medibot/Pods-Medibot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C1EE6E8ACE2B4E9E66C7F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medibot-MedibotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D072B436D1BE455F610938A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedibotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81DA9EA926EDB78D0055F4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DA9EB526EDB78D0055F4BC /* ViewController.swift in Sources */,
+				81DA9EB126EDB78D0055F4BC /* AppDelegate.swift in Sources */,
+				81DA9EB326EDB78D0055F4BC /* SceneDelegate.swift in Sources */,
+				81DA9EE126EDB90B0055F4BC /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA9EBF26EDB78E0055F4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DA9EC826EDB78E0055F4BC /* MedibotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA9ECA26EDB78E0055F4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DA9ED326EDB78E0055F4BC /* MedibotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81DA9EC526EDB78E0055F4BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81DA9EAC26EDB78D0055F4BC /* Medibot */;
+			targetProxy = 81DA9EC426EDB78E0055F4BC /* PBXContainerItemProxy */;
+		};
+		81DA9ED026EDB78E0055F4BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81DA9EAC26EDB78D0055F4BC /* Medibot */;
+			targetProxy = 81DA9ECF26EDB78E0055F4BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81DA9EB626EDB78D0055F4BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81DA9EB726EDB78D0055F4BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81DA9EBB26EDB78E0055F4BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81DA9EBC26EDB78E0055F4BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81DA9ED526EDB78E0055F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81DA9ED626EDB78E0055F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81DA9ED826EDB78E0055F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9422DEE0F5C8B5296072062 /* Pods-Medibot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDY4S44M5Q;
+				INFOPLIST_FILE = Medibot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.webviw.MedibotX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81DA9ED926EDB78E0055F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38195050CCCFF0F758BC033A /* Pods-Medibot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDY4S44M5Q;
+				INFOPLIST_FILE = Medibot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.webviw.MedibotX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81DA9EDB26EDB78E0055F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D4D14E65A680900194F8A4 /* Pods-MedibotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDY4S44M5Q;
+				INFOPLIST_FILE = MedibotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.webviw.MedibotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medibot.app/Medibot";
+			};
+			name = Debug;
+		};
+		81DA9EDC26EDB78E0055F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735B9F3C190E4B4C32B9BE62 /* Pods-MedibotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDY4S44M5Q;
+				INFOPLIST_FILE = MedibotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.webviw.MedibotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medibot.app/Medibot";
+			};
+			name = Release;
+		};
+		81DA9EDE26EDB78E0055F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BF5C9B256BA38E46488632 /* Pods-Medibot-MedibotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDY4S44M5Q;
+				INFOPLIST_FILE = MedibotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.webviw.MedibotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medibot;
+			};
+			name = Debug;
+		};
+		81DA9EDF26EDB78E0055F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E85A84164AD5CE73FC25BF /* Pods-Medibot-MedibotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDY4S44M5Q;
+				INFOPLIST_FILE = MedibotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.webviw.MedibotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medibot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81DA9EA826EDB78D0055F4BC /* Build configuration list for PBXProject "Medibot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DA9ED526EDB78E0055F4BC /* Debug */,
+				81DA9ED626EDB78E0055F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DA9ED726EDB78E0055F4BC /* Build configuration list for PBXNativeTarget "Medibot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DA9ED826EDB78E0055F4BC /* Debug */,
+				81DA9ED926EDB78E0055F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DA9EDA26EDB78E0055F4BC /* Build configuration list for PBXNativeTarget "MedibotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DA9EDB26EDB78E0055F4BC /* Debug */,
+				81DA9EDC26EDB78E0055F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DA9EDD26EDB78E0055F4BC /* Build configuration list for PBXNativeTarget "MedibotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DA9EDE26EDB78E0055F4BC /* Debug */,
+				81DA9EDF26EDB78E0055F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81DA9EA526EDB78D0055F4BC /* Project object */;
+}

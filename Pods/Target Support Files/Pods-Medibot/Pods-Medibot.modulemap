@@ -1,0 +1,6 @@
+framework module Pods_Medibot {
+  umbrella header "Pods-Medibot-umbrella.h"
+
+  export *
+  module * { export * }
+}

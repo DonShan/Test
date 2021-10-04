@@ -1,0 +1,6 @@
+framework module Pods_Medibot_MedibotUITests {
+  umbrella header "Pods-Medibot-MedibotUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
